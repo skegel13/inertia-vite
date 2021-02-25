@@ -9,6 +9,9 @@ import { InertiaProgress } from "@inertiajs/progress";
 // Import Axios and set config here instead of bootstrap file.
 import axios from "axios";
 
+// Import CSS so it is handled by Vite.
+import "../css/app.css";
+
 axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
 const el = document.getElementById("app");
