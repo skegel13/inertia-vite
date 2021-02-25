@@ -229,4 +229,6 @@ return [
 
     ],
 
+    'vite_port' => env('VITE_PORT', 3000),
+
 ];
